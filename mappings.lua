@@ -10,6 +10,7 @@ M.general = {
     ["<C-j>"] = {"<cmd> TmuxNavigateDown<CR>", "window down"},
     ["<C-k>"] = {"<cmd> TmuxNavigateUp<CR>", "window up"},
     ["ss"] = {":w<CR>", "save file"},
+    ["<leader>p"] = {":MarkdownPreviewToggle<CR>", "preview markdown"},
   },
 
   -- insert mode
